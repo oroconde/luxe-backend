@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "service": "manicure",
+    "precio": "1000"
+  },
+  {
+    "id": "2",
+    "service": "pericure",
+    "precio": "1000"
+  },
+  {
+    "id": "3",
+    "service": "depilacion",
+    "precio": "5000"
+  },
+  {
+    "id": "4",
+    "service": "masaje",
+    "precio": "2500"
+  }
+]

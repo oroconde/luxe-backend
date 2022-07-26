@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "fecha": "12-12-22",
+    "hora": "16:00",
+    "service": "manicure"
+  },
+  {
+    "id": "2",
+    "fecha": "12-12-22",
+    "hora": "17:00",
+    "service": "pericure"
+  },
+  {
+    "id": "3",
+    "fecha": "12-12-22",
+    "hora": "20:00",
+    "service": "depilacion"
+  },
+  {
+    "id": "4",
+    "fecha": "12-12-22",
+    "hora": "18:00",
+    "service": "masaje"
+  }
+]

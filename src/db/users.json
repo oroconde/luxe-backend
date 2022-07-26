@@ -1,0 +1,26 @@
+[
+  {
+    "dni": "1",
+    "name": "yeneris",
+    "rol": "admin",
+    "cel": "+111",
+    "username": "yen",
+    "password": "111"
+  },
+  {
+    "dni": "2",
+    "name": "francisco",
+    "rol": "admin",
+    "cel": "+222",
+    "username": "fran",
+    "password": "222"
+  },
+  {
+    "dni": "3",
+    "name": "Grisel",
+    "rol": "admin",
+    "cel": "+333",
+    "username": "griss",
+    "password": "333"
+  }
+]
