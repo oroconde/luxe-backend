@@ -51,4 +51,18 @@ const Login = (user) => {
     return false;
   }
 };
-module.exports = { GetOne, GetOne, Create, Update, Delete, GetAll, Login };
+const isRegistered = (dni) => {
+  const data = GetAll().find((item) => item.dni === dni);
+  return data ? true : false;
+};
+
+module.exports = {
+  GetOne,
+  GetOne,
+  Create,
+  Update,
+  Delete,
+  GetAll,
+  Login,
+  isRegistered,
+};
