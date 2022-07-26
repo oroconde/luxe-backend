@@ -7,7 +7,7 @@ const movControl = require("../controller/movControl");
 const router = Router();
 
 //RUTAS DE MODELS USUARIOS
-router.post("/user/login", validate, userControl.logg); //<<<--------LOGINN
+router.post("/user/login", userControl.logg); //<<<--------LOGINN
 router.get("/", validate, userControl.gotAll);
 router.post("/users", validate, userControl.created);
 router.get("/users/:dni", validate, userControl.gotOne);

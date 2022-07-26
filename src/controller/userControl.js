@@ -43,7 +43,7 @@ const logg = (req, res) => {
   const data = req.body;
   const answer = models.Login(data);
   if (answer) {
-    res.status(200).json({ msg: "user login successful" });
+    res.status(200).json({ token: answer});
   } else {
     res.status(404).json({ msg: "user login failed" });
   }
