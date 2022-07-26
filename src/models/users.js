@@ -46,7 +46,7 @@ const Login = (user) => {
     (item) => item.username === user.username && item.password === user.password
   );
   if (found) {
-    return true;
+    return "123";
   } else {
     return false;
   }
